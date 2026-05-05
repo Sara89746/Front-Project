@@ -68,7 +68,7 @@ body.sidebar-layout #navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 180px;
+  width: 200px;
   height: 100vh;
   flex-direction: column;
   align-items: flex-start;
@@ -86,6 +86,11 @@ body.sidebar-layout .nav-right {
   align-items: flex-start;
   gap: 0.5rem;
 }
+body.sidebar-layout main,
+body.sidebar-layout section,
+body.sidebar-layout.secttion{
+  margin-left:220px; }
+
 @keyframes slideDown { from{transform:translateY(-70px);opacity:0} to{transform:none;opacity:1} }
 
 .logo { font-size: 1.5rem; font-weight: 900; background: linear-gradient(135deg, var(--gold), var(--sky)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; white-space: nowrap; }
