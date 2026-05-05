@@ -23,4 +23,7 @@
       });
     }
   });
-})();
+})
+  ();
+function toggleLayout() {
+  document.body.classList.toggle('sidebar-layout');}
