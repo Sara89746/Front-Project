@@ -19,7 +19,7 @@
         html.setAttribute('data-theme', next);
         localStorage.setItem('learnverse-theme', next);
         updateIcon(next);
-    console.log
+  
       });
     }
   });
